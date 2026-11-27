@@ -3,6 +3,8 @@
 A faceless-documentary studio run by Claude Code. The user is the producer: they pick topics, approve each step and
 review cuts in VideoHub. Claude does the research, writing, visual planning, graphics and edit.
 
+**Read `NOTES.md` first:** who the user is, what's been decided, feedback already acted on, and what's next.
+
 Pipeline (one skill per step, in `.claude/skills/`):
 **new-film → research → outline → script → factcheck → visual-plan → graphics → rough-cut** → youtube-package.
 `voice` changes the narrator. `npm run status` shows where each film is.
