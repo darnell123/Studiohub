@@ -1,5 +1,6 @@
-# Studio
+# Studiohub
 
+Video editors for Claude. 
 Research → script → visual plan → graphics → rough cut for faceless YouTube documentaries, done by Claude Code,
 reviewed in [VideoHub](https://github.com/TensaikunYT/Videohub), finished in CapCut.
 This replaces the TRACE app: its research, outline, script, fact-check, visual-plan and YouTube-package steps are now
