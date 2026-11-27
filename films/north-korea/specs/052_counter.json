@@ -1,0 +1,27 @@
+{
+  "shot": 52,
+  "timecode": "11:02",
+  "type": "Motion graphic",
+  "scene": "A Market for Becoming Someone Else",
+  "template": "counter",
+  "durationSec": 6.7,
+  "source": {
+    "whatToShow": "Show 14 individual markers and connect them to the Silverstar companies on a December timeline.",
+    "playsUnder": "By December, prosecutors charge 14 North Korean nationals connected to the Silverstar companies."
+  },
+  "params": {
+    "title": "Connected to the Silverstar companies",
+    "tag": "By December",
+    "stats": [
+      {
+        "value": 14,
+        "label": "North Korean nationals charged"
+      }
+    ],
+    "icons": {
+      "count": 14,
+      "glyph": "person"
+    },
+    "source": "Source: federal prosecutors"
+  }
+}

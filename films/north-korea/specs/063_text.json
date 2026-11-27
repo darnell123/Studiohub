@@ -1,0 +1,22 @@
+{
+  "shot": 63,
+  "timecode": "13:19",
+  "type": "Motion graphic",
+  "scene": "Following the Paycheck",
+  "template": "text",
+  "durationSec": 7.5,
+  "source": {
+    "whatToShow": "Mark the February 2025 guilty plea on a timeline and list the three offenses in sequence.",
+    "playsUnder": "Chapman pleads guilty in February 2025 to wire-fraud conspiracy, aggravated identity theft and money-laundering conspiracy."
+  },
+  "params": {
+    "kicker": "February 2025: Chapman pleads guilty",
+    "style": "list",
+    "mode": "stack",
+    "lines": [
+      "Wire-fraud conspiracy",
+      "Aggravated identity theft",
+      "Money-laundering conspiracy"
+    ]
+  }
+}

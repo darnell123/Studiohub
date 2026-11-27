@@ -1,0 +1,36 @@
+{
+  "shot": 65,
+  "timecode": "13:37",
+  "type": "Motion graphic",
+  "scene": "Following the Paycheck",
+  "template": "map",
+  "durationSec": 8,
+  "source": {
+    "whatToShow": "Mark the Atlanta area and animate an alleged virtual-currency theft exceeding $900,000 from a blockchain-company icon.",
+    "playsUnder": "Officials also describe a separate Atlanta-area case in which North Korean workers allegedly get jobs at a blockchain research company and steal more than $900,000 in virtual currency."
+  },
+  "params": {
+    "title": "A separate Atlanta-area case",
+    "tag": "Alleged",
+    "zoom": {
+      "center": [
+        -83.4,
+        32.7
+      ],
+      "scale": 6000
+    },
+    "highlightStates": [
+      "Georgia"
+    ],
+    "points": [
+      {
+        "id": "a",
+        "label": "Atlanta area",
+        "lon": -84.39,
+        "lat": 33.75,
+        "note": "blockchain research company"
+      }
+    ],
+    "caption": "More than $900,000 in virtual currency allegedly stolen"
+  }
+}

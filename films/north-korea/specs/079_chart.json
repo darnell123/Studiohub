@@ -1,0 +1,23 @@
+{
+  "shot": 79,
+  "timecode": "16:24",
+  "type": "Chart",
+  "scene": "The Next Applicant",
+  "template": "chart",
+  "durationSec": 7.9,
+  "source": {
+    "whatToShow": "Show a revenue bar with an 85–90% range highlighted and label it as the FBI’s estimate.",
+    "playsUnder": "Its estimate is that the North Korean government receives 85 to 90 percent of the revenue."
+  },
+  "params": {
+    "kind": "split",
+    "tag": "FBI estimate",
+    "barLabel": "Revenue",
+    "portion": 90,
+    "rangeFrom": 85,
+    "portionDisplay": "85–90%",
+    "portionLabel": "received by the North Korean government",
+    "restLabel": "Remainder",
+    "source": "Source: FBI"
+  }
+}

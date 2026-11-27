@@ -1,0 +1,26 @@
+{
+  "shot": 33,
+  "timecode": "7:16",
+  "type": "Motion graphic",
+  "scene": "The Script and the Search",
+  "template": "counter",
+  "durationSec": 6.7,
+  "source": {
+    "whatToShow": "Show a timeline marker for October 2023 and animate 17 generic website tiles being disabled.",
+    "playsUnder": "In October 2023, the Justice Department announces the seizure of 17 website domains."
+  },
+  "params": {
+    "title": "October 2023",
+    "stats": [
+      {
+        "value": 17,
+        "label": "website domains seized"
+      }
+    ],
+    "icons": {
+      "count": 17,
+      "glyph": "website"
+    },
+    "source": "Source: U.S. Justice Department"
+  }
+}

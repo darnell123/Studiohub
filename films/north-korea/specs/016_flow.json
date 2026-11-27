@@ -1,0 +1,35 @@
+{
+  "shot": 16,
+  "timecode": "3:48",
+  "type": "Motion graphic",
+  "scene": "An American Address",
+  "template": "flow",
+  "durationSec": 5,
+  "source": {
+    "whatToShow": "Introduce a three-stage diagram: identity and hiring, U.S. laptop hosting, overseas operation.",
+    "playsUnder": "The arrangement works in three parts."
+  },
+  "params": {
+    "title": "The arrangement works in three parts",
+    "nodes": [
+      {
+        "id": "a",
+        "label": "Identity and hiring",
+        "glyph": "id",
+        "sublabel": "Part one"
+      },
+      {
+        "id": "b",
+        "label": "U.S. laptop hosting",
+        "glyph": "laptop",
+        "sublabel": "Part two"
+      },
+      {
+        "id": "c",
+        "label": "Overseas operation",
+        "glyph": "globe",
+        "sublabel": "Part three"
+      }
+    ]
+  }
+}

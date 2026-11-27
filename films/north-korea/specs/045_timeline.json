@@ -1,0 +1,25 @@
+{
+  "shot": 45,
+  "timecode": "9:49",
+  "type": "Motion graphic",
+  "scene": "A Market for Becoming Someone Else",
+  "template": "timeline",
+  "durationSec": 8,
+  "source": {
+    "whatToShow": "Place two separate case markers on a May 2024 timeline, with distinct labels for Chapman and Didenko.",
+    "playsUnder": "The American cases become public in May, when authorities unseal charges against Chapman and separately charge Didenko."
+  },
+  "params": {
+    "title": "The American cases become public",
+    "markers": [
+      {
+        "date": "2024-05",
+        "label": "Chapman: charges unsealed"
+      },
+      {
+        "date": "2024-05",
+        "label": "Didenko: charged separately"
+      }
+    ]
+  }
+}

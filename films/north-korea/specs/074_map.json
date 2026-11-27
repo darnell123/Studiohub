@@ -1,0 +1,27 @@
+{
+  "shot": 74,
+  "timecode": "15:30",
+  "type": "Map",
+  "scene": "The Next Applicant",
+  "template": "map",
+  "durationSec": 6.3,
+  "source": {
+    "whatToShow": "Show Texas with more than 40 generic search markers, labeled as suspected residences and attributed to the operation announcement.",
+    "playsUnder": "Operation Lonestar Roundup reaches more than 40 suspected laptop-farm residences in Texas."
+  },
+  "params": {
+    "title": "Operation Lonestar Roundup",
+    "zoom": {
+      "center": [
+        -99.3,
+        30.6
+      ],
+      "scale": 2700
+    },
+    "highlightStates": [
+      "Texas"
+    ],
+    "caption": "More than 40 suspected laptop-farm residences",
+    "source": "Source: operation announcement"
+  }
+}

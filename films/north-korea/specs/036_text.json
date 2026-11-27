@@ -1,0 +1,21 @@
+{
+  "shot": 36,
+  "timecode": "8:04",
+  "type": "Text on screen",
+  "scene": "The Script and the Search",
+  "template": "text",
+  "durationSec": 5,
+  "source": {
+    "whatToShow": "Set the reported reply in a recreated chat bubble, clearly labeled as a reported message.",
+    "playsUnder": "I do it practically EVERYDAY!” she replies."
+  },
+  "params": {
+    "kicker": "Reported message",
+    "style": "quote",
+    "mode": "stack",
+    "lines": [
+      "I do it practically EVERYDAY!"
+    ],
+    "attribution": "her reply"
+  }
+}

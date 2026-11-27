@@ -1,0 +1,45 @@
+{
+  "shot": 59,
+  "timecode": "12:30",
+  "type": "Motion graphic",
+  "scene": "Following the Paycheck",
+  "template": "flow",
+  "durationSec": 5.5,
+  "source": {
+    "whatToShow": "Trace an employer payroll deposit into a U.S. financial-account icon, then onward toward an overseas recipient.",
+    "playsUnder": "In Chapman’s case, employers deposit wages into American financial accounts."
+  },
+  "params": {
+    "title": "In Chapman’s case",
+    "nodes": [
+      {
+        "id": "e",
+        "label": "Employer payroll",
+        "glyph": "building"
+      },
+      {
+        "id": "a",
+        "label": "American financial account",
+        "glyph": "bank"
+      },
+      {
+        "id": "o",
+        "label": "Overseas recipient",
+        "glyph": "globe",
+        "dashed": true
+      }
+    ],
+    "edges": [
+      {
+        "from": "e",
+        "to": "a",
+        "label": "wages"
+      },
+      {
+        "from": "a",
+        "to": "o",
+        "dashed": true
+      }
+    ]
+  }
+}

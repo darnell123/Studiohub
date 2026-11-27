@@ -1,0 +1,49 @@
+{
+  "shot": 61,
+  "timecode": "12:43",
+  "type": "Motion graphic",
+  "scene": "Following the Paycheck",
+  "template": "flow",
+  "durationSec": 8,
+  "source": {
+    "whatToShow": "Diagram money moving through a transmitter, online payment service and Chinese bank-account nodes.",
+    "playsUnder": "Across other networks, authorities describe money transmitters, online payment services and Chinese bank accounts carrying payments onward."
+  },
+  "params": {
+    "title": "Carrying payments onward",
+    "nodes": [
+      {
+        "id": "p",
+        "label": "Payments",
+        "glyph": "money",
+        "col": 0
+      },
+      {
+        "id": "t",
+        "label": "Money transmitters",
+        "glyph": "link",
+        "col": 1
+      },
+      {
+        "id": "o",
+        "label": "Online payment services",
+        "glyph": "website",
+        "col": 1
+      },
+      {
+        "id": "b",
+        "label": "Chinese bank accounts",
+        "glyph": "bank",
+        "col": 1
+      },
+      {
+        "id": "x",
+        "label": "Onward",
+        "glyph": "globe",
+        "col": 2,
+        "dashed": true
+      }
+    ],
+    "source": "Source: authorities"
+  }
+}

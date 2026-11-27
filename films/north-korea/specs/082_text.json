@@ -1,0 +1,22 @@
+{
+  "shot": 82,
+  "timecode": "17:12",
+  "type": "Text on screen",
+  "scene": "The Next Applicant",
+  "template": "text",
+  "durationSec": 10,
+  "source": {
+    "whatToShow": "Show the three closing questions one at a time over a generic laptop and interview screen, ending on a blank access-permission prompt.",
+    "playsUnder": "Who will actually do that work? Who will receive the paycheck? And will the employer discover the answers before the new hire gets access?"
+  },
+  "params": {
+    "style": "question",
+    "mode": "sequence",
+    "finale": "blank-prompt",
+    "lines": [
+      "Who will actually do that work?",
+      "Who will receive the paycheck?",
+      "And will the employer discover the answers before the new hire gets access?"
+    ]
+  }
+}

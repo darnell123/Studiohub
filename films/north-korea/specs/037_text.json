@@ -1,0 +1,20 @@
+{
+  "shot": 37,
+  "timecode": "8:16",
+  "type": "Text on screen",
+  "scene": "The Script and the Search",
+  "template": "text",
+  "durationSec": 5,
+  "source": {
+    "whatToShow": "Place the reported question over a neutral laptop-onboarding meeting interface recreation.",
+    "playsUnder": "Chapman asks: “Who do I say I am?"
+  },
+  "params": {
+    "kicker": "Chapman asks",
+    "style": "quote",
+    "mode": "stack",
+    "lines": [
+      "Who do I say I am?"
+    ]
+  }
+}

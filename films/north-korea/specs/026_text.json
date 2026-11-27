@@ -1,0 +1,20 @@
+{
+  "shot": 26,
+  "timecode": "5:43",
+  "type": "Text on screen",
+  "scene": "An American Address",
+  "template": "text",
+  "durationSec": 5.1,
+  "source": {
+    "whatToShow": "Set the quoted sentence on screen over a neutral video-call interface recreation.",
+    "playsUnder": "His response is unexpected: “But it’s not my birthday."
+  },
+  "params": {
+    "kicker": "His response",
+    "style": "quote",
+    "mode": "stack",
+    "lines": [
+      "But it’s not my birthday."
+    ]
+  }
+}

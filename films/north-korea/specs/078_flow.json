@@ -1,0 +1,47 @@
+{
+  "shot": 78,
+  "timecode": "16:10",
+  "type": "Motion graphic",
+  "scene": "The Next Applicant",
+  "template": "flow",
+  "durationSec": 8,
+  "source": {
+    "whatToShow": "Create a hierarchy chart with around a dozen team-member icons, a group-leader tier and an upward link to state organizations; attribute the description to the FBI.",
+    "playsUnder": "According to the bureau, teams typically consist of around a dozen military-aged men under group leaders who report upward into North Korean state organizations."
+  },
+  "params": {
+    "direction": "down",
+    "tag": "FBI description",
+    "nodes": [
+      {
+        "id": "s",
+        "label": "North Korean state organizations",
+        "glyph": "flag",
+        "col": 0
+      },
+      {
+        "id": "g",
+        "label": "Group leaders",
+        "glyph": "person",
+        "col": 1
+      },
+      {
+        "id": "t",
+        "label": "Team: around a dozen military-aged men",
+        "glyph": "people",
+        "col": 2
+      }
+    ],
+    "edges": [
+      {
+        "from": "t",
+        "to": "g",
+        "label": "report upward"
+      },
+      {
+        "from": "g",
+        "to": "s"
+      }
+    ]
+  }
+}

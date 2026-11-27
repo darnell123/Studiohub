@@ -1,0 +1,57 @@
+{
+  "shot": 5,
+  "timecode": "1:16",
+  "type": "Motion graphic",
+  "scene": "The Workers Behind the Names",
+  "template": "map",
+  "durationSec": 8,
+  "source": {
+    "whatToShow": "Map China and Russia, mark the two Silverstar company locations, and draw lines toward U.S. job-market icons.",
+    "playsUnder": "Two companies sit near the beginning of the trail: Yanbian Silverstar Network Technology in China, and Volasys Silverstar in Russia."
+  },
+  "params": {
+    "title": "Near the beginning of the trail",
+    "rotate": 10,
+    "highlight": [
+      "China",
+      "Russia"
+    ],
+    "points": [
+      {
+        "id": "ru",
+        "label": "Volasys Silverstar",
+        "note": "Russia",
+        "lon": 92,
+        "lat": 60,
+        "kind": "region",
+        "labelDir": "above"
+      },
+      {
+        "id": "cn",
+        "label": "Yanbian Silverstar Network Technology",
+        "note": "China",
+        "lon": 129.5,
+        "lat": 42.9,
+        "kind": "region",
+        "labelDir": "below"
+      },
+      {
+        "id": "us",
+        "label": "U.S. job market",
+        "lon": -98,
+        "lat": 39,
+        "kind": "target"
+      }
+    ],
+    "lines": [
+      {
+        "from": "ru",
+        "to": "us"
+      },
+      {
+        "from": "cn",
+        "to": "us"
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "shot": 23,
+  "timecode": "5:03",
+  "type": "Chart",
+  "scene": "An American Address",
+  "template": "chart",
+  "durationSec": 8,
+  "source": {
+    "whatToShow": "Compare two labeled figures in a bar chart: more than $300,000 per individual and more than $3 million per team annually.",
+    "playsUnder": "The agencies estimate that some individuals can make more than $300,000 a year. A team can generate more than $3 million annually."
+  },
+  "params": {
+    "kind": "bars",
+    "title": "What the agencies estimate they can make",
+    "tag": "Agency estimate",
+    "bars": [
+      {
+        "label": "One individual",
+        "sublabel": "per year",
+        "value": 300000,
+        "display": "$300,000+"
+      },
+      {
+        "label": "One team",
+        "sublabel": "per year",
+        "value": 3000000,
+        "display": "$3 million+"
+      }
+    ],
+    "source": "Source: FBI, State Department and Treasury"
+  }
+}

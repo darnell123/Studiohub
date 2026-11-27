@@ -1,0 +1,32 @@
+{
+  "shot": 64,
+  "timecode": "13:26",
+  "type": "Map",
+  "scene": "Following the Paycheck",
+  "template": "counter",
+  "durationSec": 8,
+  "source": {
+    "whatToShow": "Highlight 16 states on a U.S. map, display 29 search markers, and count up to about 200 computers seized.",
+    "playsUnder": "In June, the Justice Department announces searches of 29 known or suspected laptop farms across 16 states, alongside seizures of financial accounts, fraudulent websites and about 200 computers."
+  },
+  "params": {
+    "title": "Laptop farm searches",
+    "tag": "June",
+    "stats": [
+      {
+        "value": 29,
+        "label": "known or suspected laptop farms searched"
+      },
+      {
+        "value": 16,
+        "label": "states"
+      },
+      {
+        "qualifier": "About",
+        "value": 200,
+        "label": "computers seized"
+      }
+    ],
+    "source": "Source: U.S. Justice Department"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "shot": 38,
+  "timecode": "8:31",
+  "type": "Motion graphic",
+  "scene": "The Script and the Search",
+  "template": "counter",
+  "durationSec": 6.3,
+  "source": {
+    "whatToShow": "Animate laptop silhouettes accumulating past 90, with an April 2024 marker and Justice Department attribution.",
+    "playsUnder": "The search uncovers more than 90 laptops, according to the Justice Department."
+  },
+  "params": {
+    "title": "The April 2024 search",
+    "stats": [
+      {
+        "qualifier": "More than",
+        "value": 90,
+        "label": "laptops"
+      }
+    ],
+    "icons": {
+      "count": 90,
+      "glyph": "laptop"
+    },
+    "source": "Source: U.S. Justice Department"
+  }
+}

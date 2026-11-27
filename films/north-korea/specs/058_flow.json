@@ -1,0 +1,54 @@
+{
+  "shot": 58,
+  "timecode": "12:15",
+  "type": "Motion graphic",
+  "scene": "Following the Paycheck",
+  "template": "flow",
+  "durationSec": 8,
+  "source": {
+    "whatToShow": "Animate alias and false-ID icons leading to three product icons: website, mobile app and cryptocurrency exchange.",
+    "playsUnder": "Treasury says the workers use aliases and false identification while developing websites, mobile applications and cryptocurrency exchanges."
+  },
+  "params": {
+    "source": "Source: U.S. Treasury",
+    "nodes": [
+      {
+        "id": "al",
+        "label": "Aliases",
+        "glyph": "mask",
+        "col": 0
+      },
+      {
+        "id": "id",
+        "label": "False identification",
+        "glyph": "id",
+        "col": 0
+      },
+      {
+        "id": "wk",
+        "label": "IT workers",
+        "glyph": "people",
+        "col": 1,
+        "emphasis": true
+      },
+      {
+        "id": "w",
+        "label": "Websites",
+        "glyph": "website",
+        "col": 2
+      },
+      {
+        "id": "m",
+        "label": "Mobile applications",
+        "glyph": "phone",
+        "col": 2
+      },
+      {
+        "id": "c",
+        "label": "Cryptocurrency exchanges",
+        "glyph": "crypto",
+        "col": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "shot": 80,
+  "timecode": "16:24",
+  "type": "Motion graphic",
+  "scene": "The Next Applicant",
+  "template": "flow",
+  "durationSec": 8,
+  "source": {
+    "whatToShow": "Use a restrained diagram to connect stolen personal information, extortion threats and in-person intimidation; avoid depicting identifiable victims.",
+    "playsUnder": "The FBI also describes threats against former managers and their families, extortion involving stolen personal information, and facilitators hired to intimidate people in person."
+  },
+  "params": {
+    "tag": "FBI description",
+    "nodes": [
+      {
+        "id": "a",
+        "label": "Extortion",
+        "glyph": "lock",
+        "sublabel": "involving stolen personal information"
+      },
+      {
+        "id": "b",
+        "label": "Threats",
+        "glyph": "alert",
+        "sublabel": "against former managers and their families"
+      },
+      {
+        "id": "c",
+        "label": "In-person intimidation",
+        "glyph": "person",
+        "sublabel": "by hired facilitators"
+      }
+    ],
+    "edges": []
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "shot": 19,
+  "timecode": "4:11",
+  "type": "Motion graphic",
+  "scene": "An American Address",
+  "template": "flow",
+  "durationSec": 8,
+  "source": {
+    "whatToShow": "Trace keyboard and screen control from a worker abroad to a laptop remaining at a U.S. address.",
+    "playsUnder": "Third, the overseas worker operates the computer. The employer’s own equipment remains connected inside the United States."
+  },
+  "params": {
+    "title": "Third, the overseas worker operates the computer",
+    "nodes": [
+      {
+        "id": "w",
+        "label": "Worker abroad",
+        "glyph": "person",
+        "sublabel": "Keyboard and screen control"
+      },
+      {
+        "id": "l",
+        "label": "Employer’s laptop",
+        "glyph": "laptop",
+        "sublabel": "Stays connected inside the United States",
+        "emphasis": true
+      }
+    ],
+    "edges": [
+      {
+        "from": "w",
+        "to": "l",
+        "dashed": true,
+        "label": "remote control"
+      }
+    ]
+  }
+}

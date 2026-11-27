@@ -1,0 +1,22 @@
+{
+  "shot": 72,
+  "timecode": "14:58",
+  "type": "Motion graphic",
+  "scene": "The Next Applicant",
+  "template": "counter",
+  "durationSec": 8,
+  "source": {
+    "whatToShow": "Place the guilty plea and five-year sentence on a timeline with a simple identity-to-laptop-farm icon sequence.",
+    "playsUnder": "Didenko also pleads guilty that November. He later receives five years in prison for his identity-selling and laptop-farm operation."
+  },
+  "params": {
+    "title": "Didenko",
+    "tag": "Pleads guilty in November",
+    "stats": [
+      {
+        "text": "Five",
+        "label": "years in prison for his identity-selling and laptop-farm operation"
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "shot": 54,
+  "timecode": "11:26",
+  "type": "Motion graphic",
+  "scene": "A Market for Becoming Someone Else",
+  "template": "flow",
+  "durationSec": 8,
+  "source": {
+    "whatToShow": "Diagram the alleged sequence: proprietary information copied, payment demanded, then possible publication.",
+    "playsUnder": "Prosecutors say some workers steal proprietary information, then demand payment to keep it private. In some cases, they allegedly publish it."
+  },
+  "params": {
+    "tag": "Alleged by prosecutors",
+    "nodes": [
+      {
+        "id": "a",
+        "label": "Proprietary information copied",
+        "glyph": "file"
+      },
+      {
+        "id": "b",
+        "label": "Payment demanded",
+        "glyph": "money",
+        "sublabel": "to keep it private"
+      },
+      {
+        "id": "c",
+        "label": "In some cases, published",
+        "glyph": "website",
+        "dashed": true
+      }
+    ]
+  }
+}

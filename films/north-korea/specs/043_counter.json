@@ -1,0 +1,26 @@
+{
+  "shot": 43,
+  "timecode": "9:24",
+  "type": "Motion graphic",
+  "scene": "A Market for Becoming Someone Else",
+  "template": "counter",
+  "durationSec": 7.1,
+  "source": {
+    "whatToShow": "Show 40 company icons appearing across a U.S. map, connected to a central facilitator node.",
+    "playsUnder": "His operation helps North Korean workers obtain employment at 40 U.S. companies, officials say."
+  },
+  "params": {
+    "title": "Jobs at U.S. companies, through one operation",
+    "stats": [
+      {
+        "value": 40,
+        "label": "U.S. companies"
+      }
+    ],
+    "icons": {
+      "count": 40,
+      "glyph": "building"
+    },
+    "source": "Source: officials"
+  }
+}

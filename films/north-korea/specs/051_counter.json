@@ -1,0 +1,23 @@
+{
+  "shot": 51,
+  "timecode": "10:55",
+  "type": "Chart",
+  "scene": "A Market for Becoming Someone Else",
+  "template": "counter",
+  "durationSec": 8,
+  "source": {
+    "whatToShow": "Display a rising cost counter exceeding $500,000, with device, system and network repair categories.",
+    "playsUnder": "The Justice Department says affected companies incur more than $500,000 auditing and repairing devices, systems and networks."
+  },
+  "params": {
+    "stats": [
+      {
+        "qualifier": "More than",
+        "prefix": "$",
+        "value": 500000,
+        "label": "spent by affected companies auditing and repairing devices, systems and networks"
+      }
+    ],
+    "source": "Source: U.S. Justice Department"
+  }
+}

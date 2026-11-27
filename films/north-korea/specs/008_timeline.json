@@ -1,0 +1,22 @@
+{
+  "shot": 8,
+  "timecode": "2:06",
+  "type": "Motion graphic",
+  "scene": "The Workers Behind the Names",
+  "template": "timeline",
+  "durationSec": 8,
+  "source": {
+    "whatToShow": "Animate a freelance profile changing from a genuine account holder’s identity to a remote applicant, then mark August 2019 on a timeline.",
+    "playsUnder": "By August 2019, an American tells the FBI that someone later identified as a North Korean IT worker has used their U.S.-based freelance account."
+  },
+  "params": {
+    "title": "A U.S.-based freelance account, used by someone else",
+    "markers": [
+      {
+        "date": "2019-08",
+        "label": "An American tells the FBI"
+      }
+    ],
+    "source": "Source: FBI account"
+  }
+}

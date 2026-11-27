@@ -1,0 +1,15 @@
+{
+  "title": "North Korea's Fake Remote Workers",
+  "status": "in-progress",
+  "render": {
+    "script": "render.mjs",
+    "workers": 2,
+    "env": {
+      "DUR": "1116.6"
+    }
+  },
+  "transcript": {
+    "file": "words.json",
+    "offset": 0
+  }
+}

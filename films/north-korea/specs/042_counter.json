@@ -1,0 +1,29 @@
+{
+  "shot": 42,
+  "timecode": "9:16",
+  "type": "Chart",
+  "scene": "A Market for Becoming Someone Else",
+  "template": "counter",
+  "durationSec": 8,
+  "source": {
+    "whatToShow": "Use a large counter for up to 871 identities and three U.S. laptop-farm icons, attributed to the Justice Department.",
+    "playsUnder": "The Justice Department later says he manages as many as 871 proxy identities and facilitates at least three American laptop farms."
+  },
+  "params": {
+    "title": "One facilitator’s network",
+    "stats": [
+      {
+        "qualifier": "As many as",
+        "value": 871,
+        "label": "proxy identities"
+      }
+    ],
+    "icons": {
+      "count": 3,
+      "glyph": "house",
+      "qualifier": "At least three",
+      "label": "American laptop farms"
+    },
+    "source": "Source: U.S. Justice Department"
+  }
+}

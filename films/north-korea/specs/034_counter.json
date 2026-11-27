@@ -1,0 +1,30 @@
+{
+  "shot": 34,
+  "timecode": "7:42",
+  "type": "Chart",
+  "scene": "The Script and the Search",
+  "template": "counter",
+  "durationSec": 8,
+  "source": {
+    "whatToShow": "Build a graphic with the approximate $1.5 million seizure figure and icons for thousands of closed accounts; connect U.S. and South Korean agencies.",
+    "playsUnder": "By November, authorities also report approximately $1.5 million seized and thousands of fraudulent freelance and payment accounts shut down through U.S.–South Korean cooperation."
+  },
+  "params": {
+    "title": "Through U.S.–South Korean cooperation",
+    "tag": "By November",
+    "stats": [
+      {
+        "qualifier": "Approximately",
+        "prefix": "$",
+        "value": 1.5,
+        "decimals": 1,
+        "suffix": "million",
+        "label": "seized"
+      },
+      {
+        "text": "Thousands",
+        "label": "of fraudulent freelance and payment accounts shut down"
+      }
+    ]
+  }
+}

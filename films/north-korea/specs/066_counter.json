@@ -1,0 +1,25 @@
+{
+  "shot": 66,
+  "timecode": "13:52",
+  "type": "Chart",
+  "scene": "Following the Paycheck",
+  "template": "counter",
+  "durationSec": 5.9,
+  "source": {
+    "whatToShow": "Convert 102 months into an eight-and-a-half-year timeline graphic and label the sentence date.",
+    "playsUnder": "She receives 102 months in prison: eight and a half years."
+  },
+  "params": {
+    "title": "Chapman’s sentence",
+    "stats": [
+      {
+        "value": 102,
+        "label": "months in prison"
+      },
+      {
+        "text": "Eight and a half",
+        "label": "years"
+      }
+    ]
+  }
+}

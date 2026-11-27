@@ -1,0 +1,38 @@
+{
+  "shot": 47,
+  "timecode": "10:07",
+  "type": "Motion graphic",
+  "scene": "A Market for Becoming Someone Else",
+  "template": "flow",
+  "durationSec": 6.3,
+  "source": {
+    "whatToShow": "Animate interview, identity-check and background-check icons passing in sequence before an applicant is hired.",
+    "playsUnder": "Its applicant has passed multiple video interviews, identity checks and background checks."
+  },
+  "params": {
+    "title": "Its applicant passed every check",
+    "nodes": [
+      {
+        "id": "v",
+        "label": "Video interviews",
+        "glyph": "video"
+      },
+      {
+        "id": "i",
+        "label": "Identity checks",
+        "glyph": "id"
+      },
+      {
+        "id": "b",
+        "label": "Background checks",
+        "glyph": "shield"
+      },
+      {
+        "id": "h",
+        "label": "Hired",
+        "glyph": "check",
+        "emphasis": true
+      }
+    ]
+  }
+}

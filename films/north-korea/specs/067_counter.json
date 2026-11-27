@@ -1,0 +1,37 @@
+{
+  "shot": 67,
+  "timecode": "13:56",
+  "type": "Chart",
+  "scene": "Following the Paycheck",
+  "template": "counter",
+  "durationSec": 8,
+  "source": {
+    "whatToShow": "Present four attributed figures in a clean graphic: $17.1 million+, 68 identities, 309 U.S. businesses and two international businesses.",
+    "playsUnder": "The Justice Department puts her conspiracy’s revenue at more than $17.1 million for her and North Korea. It counts 68 compromised American identities, 309 defrauded U.S. businesses and two international businesses."
+  },
+  "params": {
+    "title": "Chapman’s conspiracy, by the numbers",
+    "stats": [
+      {
+        "prefix": "$",
+        "value": 17.1,
+        "decimals": 1,
+        "suffix": "million+",
+        "label": "revenue for her and North Korea"
+      },
+      {
+        "value": 68,
+        "label": "compromised American identities"
+      },
+      {
+        "value": 309,
+        "label": "defrauded U.S. businesses"
+      },
+      {
+        "value": 2,
+        "label": "international businesses"
+      }
+    ],
+    "source": "Source: U.S. Justice Department"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "shot": 27,
+  "timecode": "5:46",
+  "type": "Motion graphic",
+  "scene": "An American Address",
+  "template": "flow",
+  "durationSec": 8,
+  "source": {
+    "whatToShow": "Animate a computer security alert, a termination marker, and a later pay-stub evidence marker at an Arizona-home icon.",
+    "playsUnder": "The company’s security team subsequently finds remote-access tools on his work computer. He is fired. Much later, investigators find one of his pay stubs at Chapman’s Arizona home."
+  },
+  "params": {
+    "nodes": [
+      {
+        "id": "a",
+        "label": "Remote-access tools found",
+        "glyph": "alert",
+        "sublabel": "by the company’s security team"
+      },
+      {
+        "id": "b",
+        "label": "He is fired",
+        "glyph": "cross"
+      },
+      {
+        "id": "c",
+        "label": "Pay stub found",
+        "glyph": "document",
+        "sublabel": "much later, at Chapman’s Arizona home",
+        "emphasis": true
+      }
+    ]
+  }
+}

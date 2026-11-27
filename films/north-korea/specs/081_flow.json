@@ -1,0 +1,36 @@
+{
+  "shot": 81,
+  "timecode": "17:00",
+  "type": "Motion graphic",
+  "scene": "The Next Applicant",
+  "template": "flow",
+  "durationSec": 7.9,
+  "source": {
+    "whatToShow": "Build a three-stage screening timeline—hiring, onboarding and employment—with repeated verification checkpoints.",
+    "playsUnder": "The FBI recommends checks throughout hiring, onboarding and employment, rather than relying on one decisive test."
+  },
+  "params": {
+    "title": "Checks throughout, not one decisive test",
+    "source": "Source: FBI recommendation",
+    "nodes": [
+      {
+        "id": "h",
+        "label": "Hiring",
+        "glyph": "check",
+        "sublabel": "verify"
+      },
+      {
+        "id": "o",
+        "label": "Onboarding",
+        "glyph": "check",
+        "sublabel": "verify"
+      },
+      {
+        "id": "e",
+        "label": "Employment",
+        "glyph": "check",
+        "sublabel": "verify"
+      }
+    ]
+  }
+}

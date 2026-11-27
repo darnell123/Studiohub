@@ -1,0 +1,20 @@
+{
+  "shot": 30,
+  "timecode": "6:27",
+  "type": "Text on screen",
+  "scene": "The Script and the Search",
+  "template": "text",
+  "durationSec": 8,
+  "source": {
+    "whatToShow": "Display the reported sample answer as a quotation on a clean interview-preparation page recreation.",
+    "playsUnder": "One sample answer describes a good corporate culture as a place where people are free to express ideas and opinions."
+  },
+  "params": {
+    "kicker": "Reported sample answer",
+    "style": "question",
+    "mode": "stack",
+    "lines": [
+      "A good corporate culture: a place where people are free to express ideas and opinions."
+    ]
+  }
+}

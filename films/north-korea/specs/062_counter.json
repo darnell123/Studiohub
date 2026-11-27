@@ -1,0 +1,26 @@
+{
+  "shot": 62,
+  "timecode": "13:06",
+  "type": "Chart",
+  "scene": "Following the Paycheck",
+  "template": "counter",
+  "durationSec": 7.5,
+  "source": {
+    "whatToShow": "Display a count exceeding 35 affected Americans alongside a simplified tax-record graphic, attributed as an initial allegation.",
+    "playsUnder": "Authorities initially allege that Chapman’s operation creates false tax liabilities for more than 35 Americans."
+  },
+  "params": {
+    "tag": "Initial allegation",
+    "stats": [
+      {
+        "qualifier": "More than",
+        "value": 35,
+        "label": "Americans with false tax liabilities"
+      }
+    ],
+    "icons": {
+      "count": 35,
+      "glyph": "document"
+    }
+  }
+}

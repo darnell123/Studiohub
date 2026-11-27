@@ -1,0 +1,39 @@
+{
+  "shot": 22,
+  "timecode": "4:48",
+  "type": "Motion graphic",
+  "scene": "An American Address",
+  "template": "flow",
+  "durationSec": 7.1,
+  "source": {
+    "whatToShow": "Place May 16, 2022 on a timeline and show the three agency names converging on a joint-advisory graphic.",
+    "playsUnder": "By May 16, 2022, the FBI, State Department and Treasury issue a joint warning."
+  },
+  "params": {
+    "title": "May 16, 2022: a joint warning",
+    "layout": "hub",
+    "hub": "adv",
+    "nodes": [
+      {
+        "id": "adv",
+        "label": "Joint advisory",
+        "glyph": "document"
+      },
+      {
+        "id": "fbi",
+        "label": "FBI",
+        "glyph": "shield"
+      },
+      {
+        "id": "state",
+        "label": "State Department",
+        "glyph": "building"
+      },
+      {
+        "id": "tre",
+        "label": "Treasury",
+        "glyph": "bank"
+      }
+    ]
+  }
+}

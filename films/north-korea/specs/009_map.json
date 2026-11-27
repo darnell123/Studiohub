@@ -1,0 +1,79 @@
+{
+  "shot": 9,
+  "timecode": "2:30",
+  "type": "Map",
+  "scene": "The Workers Behind the Names",
+  "template": "map",
+  "durationSec": 7.5,
+  "source": {
+    "whatToShow": "Highlight China, Russia, parts of Africa and Southeast Asia on a world map, with connection lines to U.S. clients.",
+    "playsUnder": "Many operate from China and Russia; others work from parts of Africa and Southeast Asia."
+  },
+  "params": {
+    "title": "Many operate from China and Russia",
+    "rotate": 10,
+    "highlight": [
+      "China",
+      "Russia"
+    ],
+    "points": [
+      {
+        "id": "ru",
+        "label": "Russia",
+        "lon": 95,
+        "lat": 60,
+        "labelDir": "above"
+      },
+      {
+        "id": "cn",
+        "label": "China",
+        "lon": 104,
+        "lat": 34,
+        "labelDir": "left"
+      },
+      {
+        "id": "af",
+        "label": "Parts of Africa",
+        "lon": 20,
+        "lat": 6,
+        "kind": "region",
+        "labelDir": "below"
+      },
+      {
+        "id": "sea",
+        "label": "Southeast Asia",
+        "lon": 108,
+        "lat": 12,
+        "kind": "region",
+        "labelDir": "below"
+      },
+      {
+        "id": "us",
+        "label": "U.S. clients",
+        "lon": -98,
+        "lat": 39,
+        "kind": "target",
+        "labelDir": "above"
+      }
+    ],
+    "lines": [
+      {
+        "from": "cn",
+        "to": "us"
+      },
+      {
+        "from": "ru",
+        "to": "us"
+      },
+      {
+        "from": "af",
+        "to": "us",
+        "bow": 0.18
+      },
+      {
+        "from": "sea",
+        "to": "us"
+      }
+    ]
+  }
+}

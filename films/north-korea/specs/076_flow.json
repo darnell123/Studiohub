@@ -1,0 +1,77 @@
+{
+  "shot": 76,
+  "timecode": "15:48",
+  "type": "Motion graphic",
+  "scene": "The Next Applicant",
+  "template": "flow",
+  "durationSec": 8,
+  "source": {
+    "whatToShow": "Animate a distributed network of small laptop groups, paid helpers and borrowed accounts, with icons for interviews, identity checks and fingerprinting.",
+    "playsUnder": "Fewer computers at more addresses. More paid American helpers. Borrowed professional accounts. People hired to interview, verify identities, provide fingerprints or keep a work device connected at home."
+  },
+  "params": {
+    "nodes": [
+      {
+        "id": "c",
+        "label": "Fewer computers, more addresses",
+        "glyph": "laptop",
+        "col": 0
+      },
+      {
+        "id": "h",
+        "label": "Paid American helpers",
+        "glyph": "people",
+        "col": 0,
+        "emphasis": true
+      },
+      {
+        "id": "a",
+        "label": "Borrowed professional accounts",
+        "glyph": "id",
+        "col": 0
+      },
+      {
+        "id": "i",
+        "label": "Interviews",
+        "glyph": "video",
+        "col": 1
+      },
+      {
+        "id": "v",
+        "label": "Identity verification",
+        "glyph": "check",
+        "col": 1
+      },
+      {
+        "id": "f",
+        "label": "Fingerprints",
+        "glyph": "fingerprint",
+        "col": 1
+      },
+      {
+        "id": "d",
+        "label": "Work device kept connected",
+        "glyph": "house",
+        "col": 1
+      }
+    ],
+    "edges": [
+      {
+        "from": "h",
+        "to": "i"
+      },
+      {
+        "from": "h",
+        "to": "v"
+      },
+      {
+        "from": "h",
+        "to": "f"
+      },
+      {
+        "from": "h",
+        "to": "d"
+      }
+    ]
+  }
+}

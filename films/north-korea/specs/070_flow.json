@@ -1,0 +1,29 @@
+{
+  "shot": 70,
+  "timecode": "14:34",
+  "type": "Motion graphic",
+  "scene": "The Next Applicant",
+  "template": "flow",
+  "durationSec": 8,
+  "source": {
+    "whatToShow": "Mark November 2025 on a timeline and show helper icons providing in-person identity verification.",
+    "playsUnder": "In November 2025, the Justice Department announces guilty pleas in schemes where American helpers supply that too."
+  },
+  "params": {
+    "title": "November 2025: guilty pleas",
+    "source": "Source: U.S. Justice Department",
+    "nodes": [
+      {
+        "id": "h",
+        "label": "American helpers",
+        "glyph": "people"
+      },
+      {
+        "id": "v",
+        "label": "In-person identity verification",
+        "glyph": "fingerprint",
+        "emphasis": true
+      }
+    ]
+  }
+}

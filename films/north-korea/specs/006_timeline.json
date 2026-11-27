@@ -1,0 +1,26 @@
+{
+  "shot": 6,
+  "timecode": "1:36",
+  "type": "Motion graphic",
+  "scene": "The Workers Behind the Names",
+  "template": "timeline",
+  "durationSec": 5.5,
+  "source": {
+    "whatToShow": "Build a timeline from April 2017 to March 2023, labeling it as the period alleged by prosecutors.",
+    "playsUnder": "The alleged conspiracy stretches from April 2017 to March 2023."
+  },
+  "params": {
+    "title": "The alleged conspiracy",
+    "tag": "Alleged by prosecutors",
+    "to": "2023-03",
+    "spans": [
+      {
+        "from": "2017-04",
+        "to": "2023-03",
+        "label": "Period alleged by prosecutors"
+      }
+    ],
+    "source": "Source: federal prosecutors",
+    "from": "2017-04"
+  }
+}

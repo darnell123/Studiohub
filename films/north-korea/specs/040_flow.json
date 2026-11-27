@@ -1,0 +1,29 @@
+{
+  "shot": 40,
+  "timecode": "9:00",
+  "type": "Motion graphic",
+  "scene": "A Market for Becoming Someone Else",
+  "template": "flow",
+  "durationSec": 5.1,
+  "source": {
+    "whatToShow": "Introduce the reported Upworksell.com name as a node feeding into an identity-and-employment network.",
+    "playsUnder": "Upworksell.com offers another route into the same labor market."
+  },
+  "params": {
+    "title": "Another route into the same labor market",
+    "tag": "Reported",
+    "nodes": [
+      {
+        "id": "u",
+        "label": "Upworksell.com",
+        "glyph": "website",
+        "emphasis": true
+      },
+      {
+        "id": "n",
+        "label": "Identity and employment network",
+        "glyph": "people"
+      }
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "shot": 39,
+  "timecode": "8:47",
+  "type": "Motion graphic",
+  "scene": "The Script and the Search",
+  "template": "flow",
+  "durationSec": 8,
+  "source": {
+    "whatToShow": "Arrange four evidence nodes—identities, payroll, financial accounts and overseas shipments—around a laptop-farm icon.",
+    "playsUnder": "The devices are only one part of what investigators uncover. There are identities, payroll records, financial accounts and shipments overseas."
+  },
+  "params": {
+    "title": "The devices are only one part",
+    "layout": "hub",
+    "hub": "farm",
+    "nodes": [
+      {
+        "id": "farm",
+        "label": "Laptop farm",
+        "glyph": "laptop"
+      },
+      {
+        "id": "id",
+        "label": "Identities",
+        "glyph": "id"
+      },
+      {
+        "id": "pay",
+        "label": "Payroll records",
+        "glyph": "document"
+      },
+      {
+        "id": "fin",
+        "label": "Financial accounts",
+        "glyph": "bank"
+      },
+      {
+        "id": "ship",
+        "label": "Shipments overseas",
+        "glyph": "box"
+      }
+    ],
+    "edges": [
+      {
+        "from": "farm",
+        "to": "id",
+        "noArrow": true
+      },
+      {
+        "from": "farm",
+        "to": "pay",
+        "noArrow": true
+      },
+      {
+        "from": "farm",
+        "to": "fin",
+        "noArrow": true
+      },
+      {
+        "from": "farm",
+        "to": "ship",
+        "noArrow": true
+      }
+    ]
+  }
+}

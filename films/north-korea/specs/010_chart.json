@@ -1,0 +1,23 @@
+{
+  "shot": 10,
+  "timecode": "2:51",
+  "type": "Motion graphic",
+  "scene": "The Workers Behind the Names",
+  "template": "chart",
+  "durationSec": 7.9,
+  "source": {
+    "whatToShow": "Show a wage bar divided into a large 90% portion and a remaining portion, labeled as Treasury’s estimate of state withholding.",
+    "playsUnder": "Treasury estimates that the state can withhold as much as 90 percent of overseas workers’ wages."
+  },
+  "params": {
+    "kind": "split",
+    "title": "How much of the wage the state can take",
+    "tag": "Treasury estimate",
+    "barLabel": "An overseas worker's wages",
+    "portion": 90,
+    "portionDisplay": "Up to 90%",
+    "portionLabel": "Can be withheld by the state",
+    "restLabel": "Remainder",
+    "source": "Source: U.S. Treasury"
+  }
+}

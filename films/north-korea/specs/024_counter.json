@@ -1,0 +1,26 @@
+{
+  "shot": 24,
+  "timecode": "5:24",
+  "type": "Motion graphic",
+  "scene": "An American Address",
+  "template": "counter",
+  "durationSec": 6.7,
+  "source": {
+    "whatToShow": "Animate profile cards accumulating from 20 to 50, labeled as one former worker’s account.",
+    "playsUnder": "He describes creating 20 to 50 profiles a year until he gets hired."
+  },
+  "params": {
+    "title": "One former worker’s account",
+    "stats": [
+      {
+        "prefix": "20–",
+        "value": 50,
+        "label": "profiles a year, until he gets hired"
+      }
+    ],
+    "icons": {
+      "count": 50,
+      "glyph": "id"
+    }
+  }
+}

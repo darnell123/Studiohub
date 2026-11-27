@@ -1,0 +1,55 @@
+{
+  "shot": 13,
+  "timecode": "3:22",
+  "type": "Motion graphic",
+  "scene": "The Workers Behind the Names",
+  "template": "flow",
+  "durationSec": 8,
+  "source": {
+    "whatToShow": "Animate an employer preparing to ship a laptop to a U.S. address, then trace the device’s connection toward an overseas user.",
+    "playsUnder": "There is still a practical obstacle. A profile can claim to be American. But what happens when an American employer wants to send its new employee a computer?"
+  },
+  "params": {
+    "title": "The practical obstacle",
+    "nodes": [
+      {
+        "id": "emp",
+        "label": "American employer",
+        "glyph": "building"
+      },
+      {
+        "id": "lap",
+        "label": "New employee’s computer",
+        "glyph": "laptop"
+      },
+      {
+        "id": "addr",
+        "label": "U.S. address",
+        "glyph": "house"
+      },
+      {
+        "id": "os",
+        "label": "Overseas user",
+        "glyph": "globe",
+        "dashed": true
+      }
+    ],
+    "edges": [
+      {
+        "from": "emp",
+        "to": "lap",
+        "label": "ships"
+      },
+      {
+        "from": "lap",
+        "to": "addr"
+      },
+      {
+        "from": "addr",
+        "to": "os",
+        "dashed": true,
+        "label": "connection"
+      }
+    ]
+  }
+}

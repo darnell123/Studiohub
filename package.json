@@ -1,0 +1,43 @@
+{
+  "name": "studio",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Faceless documentary studio: research → script → visual plan → graphics → rough cut, reviewed in VideoHub",
+  "type": "module",
+  "scripts": {
+    "postinstall": "node -e \"import('./renderer/scripts/lib.mjs').then((m) => m.writeFilmsIndex())\"",
+    "new": "node renderer/scripts/new-film.mjs",
+    "status": "node renderer/scripts/status.mjs",
+    "cues": "node renderer/scripts/cues.mjs",
+    "check": "node renderer/scripts/check.mjs",
+    "graphics": "node renderer/scripts/graphics.mjs",
+    "timeline": "node renderer/scripts/timeline.mjs",
+    "render": "node renderer/scripts/render.mjs",
+    "still": "node renderer/scripts/still.mjs",
+    "studio": "node renderer/scripts/studio.mjs",
+    "handoff": "node renderer/scripts/handoff.mjs",
+    "typecheck": "tsc -p renderer/tsconfig.json"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.547",
+    "@remotion/cli": "4.0.547",
+    "@remotion/google-fonts": "4.0.547",
+    "@remotion/renderer": "4.0.547",
+    "d3-geo": "3.1.1",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.547",
+    "topojson-client": "3.1.0",
+    "us-atlas": "3.0.1",
+    "world-atlas": "2.0.2"
+  },
+  "devDependencies": {
+    "@types/d3-geo": "3.1.0",
+    "@types/react": "18.3.12",
+    "@types/topojson-client": "3.1.5",
+    "typescript": "5.6.3"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

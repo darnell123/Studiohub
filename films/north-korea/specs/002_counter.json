@@ -1,0 +1,28 @@
+{
+  "shot": 2,
+  "timecode": "0:17",
+  "type": "Motion graphic",
+  "scene": "The Workers Behind the Names",
+  "template": "counter",
+  "durationSec": 8,
+  "source": {
+    "whatToShow": "Animate a U.S. map as company nodes appear, then display the figures “300+ businesses” and “$17M+” with a money-flow line.",
+    "playsUnder": "According to federal authorities, the operation reaches more than 300 American businesses. Its clients include major corporations. More than $17 million passes through the scheme."
+  },
+  "params": {
+    "stats": [
+      {
+        "value": 300,
+        "suffix": "+",
+        "label": "American businesses reached"
+      },
+      {
+        "prefix": "$",
+        "value": 17,
+        "suffix": "million+",
+        "label": "passing through the scheme"
+      }
+    ],
+    "source": "Source: federal authorities"
+  }
+}

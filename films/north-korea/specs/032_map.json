@@ -1,0 +1,74 @@
+{
+  "shot": 32,
+  "timecode": "6:59",
+  "type": "Motion graphic",
+  "scene": "The Script and the Search",
+  "template": "map",
+  "durationSec": 8,
+  "source": {
+    "whatToShow": "Animate profile icons across a map highlighting the seven named countries; add “more than 20 websites” as a count.",
+    "playsUnder": "According to one report, a single worker has accounts on more than 20 freelance websites, spanning the United States, Britain, Japan, Uzbekistan, Spain, Australia and New Zealand."
+  },
+  "params": {
+    "title": "One worker, accounts on more than 20 freelance websites",
+    "rotate": 10,
+    "highlight": [
+      "United States of America",
+      "United Kingdom",
+      "Japan",
+      "Uzbekistan",
+      "Spain",
+      "Australia",
+      "New Zealand"
+    ],
+    "points": [
+      {
+        "id": "us",
+        "label": "United States",
+        "lon": -98,
+        "lat": 39
+      },
+      {
+        "id": "uk",
+        "label": "Britain",
+        "lon": -2,
+        "lat": 53.5,
+        "labelDir": "above"
+      },
+      {
+        "id": "es",
+        "label": "Spain",
+        "lon": -3.7,
+        "lat": 40.2,
+        "labelDir": "below"
+      },
+      {
+        "id": "uz",
+        "label": "Uzbekistan",
+        "lon": 64,
+        "lat": 41.5
+      },
+      {
+        "id": "jp",
+        "label": "Japan",
+        "lon": 138,
+        "lat": 36.5,
+        "labelDir": "right"
+      },
+      {
+        "id": "au",
+        "label": "Australia",
+        "lon": 134,
+        "lat": -25
+      },
+      {
+        "id": "nz",
+        "label": "New Zealand",
+        "lon": 172,
+        "lat": -41.5,
+        "labelDir": "below"
+      }
+    ],
+    "source": "Source: one report"
+  }
+}

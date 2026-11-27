@@ -1,0 +1,26 @@
+{
+  "shot": 75,
+  "timecode": "15:35",
+  "type": "Motion graphic",
+  "scene": "The Next Applicant",
+  "template": "counter",
+  "durationSec": 6.7,
+  "source": {
+    "whatToShow": "Count up to approximately 187 combined laptop and remote-control-device icons.",
+    "playsUnder": "The Justice Department announces the seizure of approximately 187 laptops and remote-control devices."
+  },
+  "params": {
+    "stats": [
+      {
+        "qualifier": "Approximately",
+        "value": 187,
+        "label": "laptops and remote-control devices seized"
+      }
+    ],
+    "icons": {
+      "count": 187,
+      "glyph": "laptop"
+    },
+    "source": "Source: U.S. Justice Department"
+  }
+}

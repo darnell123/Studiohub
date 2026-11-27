@@ -1,0 +1,25 @@
+{
+  "shot": 57,
+  "timecode": "12:03",
+  "type": "Map",
+  "scene": "Following the Paycheck",
+  "template": "timeline",
+  "durationSec": 8,
+  "source": {
+    "whatToShow": "Mark Laos and add two separate timeline bars: Korea Osong Shipping from at least 2022 and Chonsurim Trading from at least 2021.",
+    "playsUnder": "One company, Korea Osong Shipping, has maintained a delegation of IT workers in Laos since at least 2022. Another, Chonsurim Trading, has directed a group there since at least 2021."
+  },
+  "params": {
+    "title": "IT-worker groups in Laos",
+    "spans": [
+      {
+        "label": "Chonsurim Trading",
+        "from": "2021"
+      },
+      {
+        "label": "Korea Osong Shipping",
+        "from": "2022"
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "shot": 56,
+  "timecode": "11:49",
+  "type": "Motion graphic",
+  "scene": "Following the Paycheck",
+  "template": "flow",
+  "durationSec": 8,
+  "source": {
+    "whatToShow": "Create an attributed organizational diagram placing Department 53 beneath North Korea’s Ministry of National Defense.",
+    "playsUnder": "At its center is Department 53, a weapons-trading organization subordinate to North Korea’s Ministry of National Defense."
+  },
+  "params": {
+    "direction": "down",
+    "source": "Source: U.S. Treasury",
+    "nodes": [
+      {
+        "id": "m",
+        "label": "Ministry of National Defense",
+        "glyph": "flag",
+        "sublabel": "North Korea",
+        "col": 0
+      },
+      {
+        "id": "d",
+        "label": "Department 53",
+        "glyph": "building",
+        "sublabel": "weapons-trading organization",
+        "col": 1,
+        "emphasis": true
+      }
+    ],
+    "edges": [
+      {
+        "from": "m",
+        "to": "d"
+      }
+    ]
+  }
+}

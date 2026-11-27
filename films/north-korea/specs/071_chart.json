@@ -1,0 +1,31 @@
+{
+  "shot": 71,
+  "timecode": "14:46",
+  "type": "Chart",
+  "scene": "The Next Applicant",
+  "template": "chart",
+  "durationSec": 8,
+  "source": {
+    "whatToShow": "Compare the approximately $1.28 million salary total with the facilitator’s reported minimum $51,397, then show most funds flowing overseas.",
+    "playsUnder": "Officials say that scheme produces about $1.28 million in salaries, most of which goes overseas. One facilitator, an active-duty U.S. Army member at the time, receives at least $51,397."
+  },
+  "params": {
+    "kind": "bars",
+    "title": "Salaries vs. one facilitator’s share",
+    "source": "Source: officials",
+    "bars": [
+      {
+        "label": "One facilitator",
+        "sublabel": "at least",
+        "value": 51397,
+        "display": "$51,397"
+      },
+      {
+        "label": "Total salaries",
+        "sublabel": "most of it goes overseas",
+        "value": 1280000,
+        "display": "$1.28 million"
+      }
+    ]
+  }
+}

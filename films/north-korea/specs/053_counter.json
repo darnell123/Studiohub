@@ -1,0 +1,28 @@
+{
+  "shot": 53,
+  "timecode": "11:07",
+  "type": "Chart",
+  "scene": "A Market for Becoming Someone Else",
+  "template": "counter",
+  "durationSec": 7.1,
+  "source": {
+    "whatToShow": "Build a six-year timeline beside an “at least $88 million” figure, labeling both as allegations in the indictment.",
+    "playsUnder": "The indictment alleges a six-year operation generating at least $88 million for North Korea."
+  },
+  "params": {
+    "tag": "Alleged in the indictment",
+    "stats": [
+      {
+        "qualifier": "At least",
+        "prefix": "$",
+        "value": 88,
+        "suffix": "million",
+        "label": "generated for North Korea"
+      },
+      {
+        "text": "Six years",
+        "label": "of alleged operation"
+      }
+    ]
+  }
+}

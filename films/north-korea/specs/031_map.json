@@ -1,0 +1,47 @@
+{
+  "shot": 31,
+  "timecode": "6:35",
+  "type": "Motion graphic",
+  "scene": "The Script and the Search",
+  "template": "map",
+  "durationSec": 8,
+  "source": {
+    "whatToShow": "Map a route from Los Angeles to Singapore and back, with the stated family explanation labeled as a scripted account.",
+    "playsUnder": "Another supplies a personal explanation for working from the wrong country. A supposed developer is in Singapore to be with parents after COVID, but plans to return to Los Angeles."
+  },
+  "params": {
+    "tag": "Scripted account",
+    "rotate": 175,
+    "points": [
+      {
+        "id": "la",
+        "label": "Los Angeles",
+        "note": "“plans to return”",
+        "lon": -118.24,
+        "lat": 34.05,
+        "labelDir": "right"
+      },
+      {
+        "id": "sg",
+        "label": "Singapore",
+        "note": "“with parents after COVID”",
+        "lon": 103.82,
+        "lat": 1.35,
+        "labelDir": "left"
+      }
+    ],
+    "lines": [
+      {
+        "from": "la",
+        "to": "sg"
+      },
+      {
+        "from": "sg",
+        "to": "la",
+        "dashed": true,
+        "bow": -0.16
+      }
+    ],
+    "caption": "A supposed developer explains working from the wrong country"
+  }
+}

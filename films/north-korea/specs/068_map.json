@@ -1,0 +1,43 @@
+{
+  "shot": 68,
+  "timecode": "14:16",
+  "type": "Map",
+  "scene": "Following the Paycheck",
+  "template": "map",
+  "durationSec": 8,
+  "source": {
+    "whatToShow": "Animate 49 device icons traveling from a U.S. map marker to a Chinese city near the North Korean border; avoid naming an unspecified city.",
+    "playsUnder": "Chapman has also shipped 49 company-supplied laptops and other devices abroad, including shipments to a Chinese city near North Korea’s border."
+  },
+  "params": {
+    "title": "Devices shipped abroad",
+    "rotate": 175,
+    "highlight": [
+      "China",
+      "North Korea"
+    ],
+    "points": [
+      {
+        "id": "us",
+        "label": "United States",
+        "lon": -98,
+        "lat": 39
+      },
+      {
+        "id": "cn",
+        "label": "Chinese city near North Korea’s border",
+        "lon": 128,
+        "lat": 42.5,
+        "kind": "region",
+        "labelDir": "below"
+      }
+    ],
+    "lines": [
+      {
+        "from": "us",
+        "to": "cn"
+      }
+    ],
+    "caption": "49 company-supplied laptops and other devices"
+  }
+}

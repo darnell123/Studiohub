@@ -1,0 +1,35 @@
+{
+  "shot": 14,
+  "timecode": "3:33",
+  "type": "Motion graphic",
+  "scene": "An American Address",
+  "template": "map",
+  "durationSec": 7.5,
+  "source": {
+    "whatToShow": "Mark October 2020 on a timeline and locate Arizona on a simple U.S. map, attributing the date to the Justice Department.",
+    "playsUnder": "Christina Chapman enters the operation around October 2020, according to the Justice Department’s later account."
+  },
+  "params": {
+    "title": "Christina Chapman enters the operation",
+    "tag": "Justice Department account",
+    "zoom": {
+      "center": [
+        -97,
+        38.5
+      ],
+      "scale": 1500
+    },
+    "highlightStates": [
+      "Arizona"
+    ],
+    "points": [
+      {
+        "id": "az",
+        "label": "Arizona",
+        "lon": -111.7,
+        "lat": 34.3
+      }
+    ],
+    "caption": "Around October 2020"
+  }
+}

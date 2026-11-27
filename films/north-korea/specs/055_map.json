@@ -1,0 +1,34 @@
+{
+  "shot": 55,
+  "timecode": "11:40",
+  "type": "Map",
+  "scene": "Following the Paycheck",
+  "template": "map",
+  "durationSec": 5.1,
+  "source": {
+    "whatToShow": "Locate Laos on a Southeast Asia map and mark January 2025 on a timeline.",
+    "playsUnder": "Laos appears on the money trail in January 2025."
+  },
+  "params": {
+    "title": "Laos appears on the money trail",
+    "zoom": {
+      "center": [
+        104,
+        16
+      ],
+      "scale": 2300
+    },
+    "highlight": [
+      "Laos"
+    ],
+    "points": [
+      {
+        "id": "la",
+        "label": "Laos",
+        "lon": 102.5,
+        "lat": 19.5
+      }
+    ],
+    "caption": "January 2025"
+  }
+}
